@@ -5,7 +5,7 @@ public class MessageService extends Service {
 	private String name;
 	private String description;
 	
-	public MessageService(String name, String description){
+	public MessageService(Class<ServiceFactory> callerClass, String name, String description){
 		this.name = name;
 		this.description = description;
 	}
