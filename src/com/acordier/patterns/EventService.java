@@ -5,8 +5,6 @@ public class EventService extends Service {
 	private String name;
 	private String description;
 	
-	
-	
 	public EventService(Class<ServiceFactory> clazz, String name, String description) {
 		this.name = name;
 		this.description = description;

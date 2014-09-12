@@ -1,6 +1,7 @@
 package com.acordier.patterns;
 
 public abstract class Service {
+	
 	public abstract String getName();
 	public abstract String description();
 
